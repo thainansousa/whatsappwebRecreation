@@ -1,0 +1,133 @@
+/* Reser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-image: linear-gradient(180deg,#dddbd1,#d2dbdc);
+}
+
+/* End Reset */
+
+/* Start Header */
+
+header {
+    width: 100%;
+    background-color: #00bfa5;
+    padding: 30px 50px 150px 50px;
+}
+header section.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+header section.container img{
+    width: 40px;
+    height: 40px;
+}
+header section.container span{
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+header section.container a{
+    text-decoration: none;
+    color: #fff;
+}
+/* End Header */
+
+/* Star Content */
+main{
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 100px;
+    height: auto;
+}
+main section.content{
+    width: 70%;
+    background-color: #fff;
+    margin: 0 auto 50px auto;
+    border-radius: 3px;
+    box-shadow: -1px 5px 15px #525252;
+}
+section.content .contentMain{
+    width: 100%;
+    display: flex;
+    padding: 60px;
+}
+section.content .contentMain .w65{
+    width: 65%;
+}
+section.content .contentMain .w65 h1{
+    font-weight: 300;
+    color: #525252;
+    font-size: 1.5em;
+}
+section.content .contentMain .w65 .information ol{
+    list-style-position: inside;
+    margin-top: 50px;
+}
+section.content .contentMain .w65 .information ol li{
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #312f2f;
+}
+section.content .contentMain .w65 .information ol li strong{
+    display: inline-block;
+}
+section.content .contentMain .w65 .information ol li:last-child{
+    margin-bottom: 35px;
+}
+section.content .contentMain .w65 .information ol li i{
+    color: #817e7e;
+    padding: 0 8px;
+}
+section.content .contentMain .w65 .information a{
+    text-decoration: none;
+    color: #009688;
+    font-size: 14px;
+    margin-left: -5px;
+}
+section.content .contentMain .w35{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.content .contentMain .w35 a{
+    text-decoration: none;
+    color: #009688;
+}
+section.content .contentMain .w35 i{
+    color: #009688;
+}
+main section.content section.video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main section.content section.video img{
+    padding: 70px 0;
+}
+/* End content */
+
+/* Start Footer */
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: #009688;
+}
+footer i{
+    color: red;
+}
+/* Ebnd Footer */
