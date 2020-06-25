@@ -43,6 +43,14 @@
     section.content .contentMain{
         padding: 50px 0 50px 30px;
     }
+    header section.container{
+        align-items: center;
+    }
+    header section.container .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media screen and (max-width:320px){
     main{
